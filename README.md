@@ -11,17 +11,16 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,firebase,git,github,vercel,vscode&perline=10" alt="Technologies and Tools" />
-
-</div>
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-
-<img src="./profile-summary-card-output/github_dark/3-stats.svg" alt="GitHub Stats" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" height="36" alt="HTML5" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" height="36" alt="CSS3" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" height="36" alt="JavaScript" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" height="36" alt="TypeScript" />
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" height="36" alt="React" />
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" height="36" alt="Firebase" />
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" height="36" alt="Git" />
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="36" alt="GitHub" />
+<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" height="36" alt="Vercel" />
+<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" height="36" alt="VS Code" />
 
 </div>
 
@@ -32,7 +31,20 @@
 <!-- LANGUAGES_START -->
 <div align="center">
 <table>
-<tr><td align="center"><img src="https://skillicons.dev/icons?i=css" width="55" alt="CSS" /><br /><sub>CSS</sub></td><td align="center"><img src="https://skillicons.dev/icons?i=js" width="55" alt="JavaScript" /><br /><sub>JavaScript</sub></td><td align="center"><img src="https://skillicons.dev/icons?i=ts" width="55" alt="TypeScript" /><br /><sub>TypeScript</sub></td></tr>
+<tr>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=css" width="55" alt="CSS" /><br />
+<sub>CSS</sub>
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=js" width="55" alt="JavaScript" /><br />
+<sub>JavaScript</sub>
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=ts" width="55" alt="TypeScript" /><br />
+<sub>TypeScript</sub>
+</td>
+</tr>
 </table>
 </div>
 <!-- LANGUAGES_END -->
@@ -43,7 +55,7 @@
 
 <div align="center">
 
-<img src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="GitHub Contributions" />
+<img src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="GitHub Contributions" width="100%" />
 
 </div>
 
