@@ -31,17 +31,9 @@
 
 <!-- LANGUAGES_START -->
 <div align="center">
-
 <table>
-<tr>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=ts" width="55" alt="TypeScript" />
-<br />
-<sub>TypeScript</sub>
-</td>
-</tr>
+<tr><td align="center"><img src="https://skillicons.dev/icons?i=css" width="55" alt="CSS" /><br /><sub>CSS</sub></td><td align="center"><img src="https://skillicons.dev/icons?i=js" width="55" alt="JavaScript" /><br /><sub>JavaScript</sub></td><td align="center"><img src="https://skillicons.dev/icons?i=ts" width="55" alt="TypeScript" /><br /><sub>TypeScript</sub></td></tr>
 </table>
-
 </div>
 <!-- LANGUAGES_END -->
 
