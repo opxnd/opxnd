@@ -9,15 +9,22 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: profile-statistics
+  cancel-in-progress: false
+
 jobs:
   generate-stats:
+    name: Generate GitHub Statistics
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout profile repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
-      - name: Generate statistics
+      - name: Generate statistics cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
@@ -28,12 +35,21 @@ jobs:
           THEME: github_dark
           AUTO_PUSH: false
 
-      - name: Save statistics
+      - name: Update repository languages
+        env:
+          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+        run: python3 .github/scripts/update_languages.py
+
+      - name: Save statistics and README
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile-summary-card-output/
+
+          git add README.md profile-summary-card-output/
+
           if ! git diff --cached --quiet; then
             git commit -m "Update GitHub profile statistics"
-            git push
+            git push origin HEAD:main
+          else
+            echo "No changes to commit"
           fi
