@@ -17,13 +17,41 @@
 
 ---
 
-### 📊 GitHub Statistics
+### 📊 GitHub Stats
 
 <div align="center">
 
-<img src="https://github-stats-extended.vercel.app/api?username=opxnd&show_icons=true&theme=github_dark&hide_border=true" alt="GitHub Statistics" />
+<img src="./profile-summary-card-output/github_dark/3-stats.svg" alt="GitHub Stats" />
 
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=opxnd&layout=compact&theme=github_dark&hide_border=true" alt="Most Used Languages" />
+</div>
+
+---
+
+### 💻 Languages Used in My Repositories
+
+<!-- LANGUAGES_START -->
+<div align="center">
+
+<table>
+<tr>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=ts" width="55" alt="TypeScript" />
+<br />
+<sub>TypeScript</sub>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- LANGUAGES_END -->
+
+---
+
+### 🟩 Contributions
+
+<div align="center">
+
+<img src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="GitHub Contributions" />
 
 </div>
 
@@ -34,7 +62,7 @@
 <div align="center">
 
 <a href="https://t.me/sayed4li">
-  <img src="https://img.shields.io/badge/Telegram-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
+<img src="https://img.shields.io/badge/Telegram-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
 </a>
 
 </div>
