@@ -40,6 +40,49 @@ jobs:
           PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
         run: python3 .github/scripts/update_languages.py
 
+      - name: Show exact GitHub join date
+        run: |
+          python3 - <<'PY'
+          import json
+          import re
+          import urllib.request
+          from pathlib import Path
+
+          request = urllib.request.Request(
+              "https://api.github.com/users/opxnd",
+              headers={
+                  "Accept": "application/vnd.github+json",
+                  "User-Agent": "opxnd-profile"
+              }
+          )
+
+          with urllib.request.urlopen(request) as response:
+              user = json.load(response)
+
+          joined = user["created_at"][:10]
+
+          path = Path(
+              "profile-summary-card-output/"
+              "github_dark/0-profile-details.svg"
+          )
+
+          svg = path.read_text(encoding="utf-8")
+
+          svg, count = re.subn(
+              r"Joined GitHub \d+ (?:year|month|day)s? ago",
+              f"Joined GitHub: {joined}",
+              svg
+          )
+
+          if count != 1:
+              raise ValueError(
+                  "Could not locate the GitHub join date"
+              )
+
+          path.write_text(svg, encoding="utf-8")
+          print(f"GitHub join date: {joined}")
+          PY
+
       - name: Save statistics and README
         run: |
           git config user.name "github-actions[bot]"
