@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# Hi, I'm El Sayed 👋
+<img src="./el_sayed_pixel_title.png" alt="I'm El Sayed" width="480" />
 
 </div>
 
@@ -30,22 +30,11 @@
 
 <!-- LANGUAGES_START -->
 <div align="center">
-<table>
-<tr>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=css" width="55" alt="CSS" /><br />
-<sub>CSS</sub>
-</td>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=js" width="55" alt="JavaScript" /><br />
-<sub>JavaScript</sub>
-</td>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=ts" width="55" alt="TypeScript" /><br />
-<sub>TypeScript</sub>
-</td>
-</tr>
-</table>
+
+<img src="https://skillicons.dev/icons?i=css" width="55" alt="CSS" />
+<img src="https://skillicons.dev/icons?i=js" width="55" alt="JavaScript" />
+<img src="https://skillicons.dev/icons?i=ts" width="55" alt="TypeScript" />
+
 </div>
 <!-- LANGUAGES_END -->
 
